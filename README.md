@@ -29,15 +29,14 @@ Follow these steps to set up and run the EasyRide project on your machine:
    git clone https://github.com/shivampatelcodes/Easyride
    cd easyride
 
-2. **Install Dependencies**:
-Run the following command to install the required packages:
- ```bash
+2. Install Dependencies:
+bash
 Copy code
 npm install
-
-3. **Setup Firebase Configuration**:
+3. Setup Firebase Configuration:
 Create a .env file in the root directory.
 Add your Firebase configuration variables to the .env file as shown below:
+
 env
 Copy code
 VITE_FIREBASE_API_KEY=your-api-key
