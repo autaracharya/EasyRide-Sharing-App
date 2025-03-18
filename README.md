@@ -29,17 +29,17 @@ Follow these steps to set up and run the EasyRide project on your machine:
    git clone https://github.com/shivampatelcodes/Easyride
    cd easyride
 
-## 2. Install Dependencies:
+2. Install Dependencies:
 Run the following command to install the required packages:
 
-  ```bash
+bash
+Copy code
 npm install
-
-## 3. Setup Firebase Configuration:
+3. Setup Firebase Configuration:
 Create a .env file in the root directory.
 Add your Firebase configuration variables to the .env file as shown below:
 env
-  ```bash
+Copy code
 VITE_FIREBASE_API_KEY=your-api-key
 VITE_FIREBASE_AUTH_DOMAIN=your-auth-domain
 VITE_FIREBASE_PROJECT_ID=your-project-id
@@ -47,16 +47,17 @@ VITE_FIREBASE_STORAGE_BUCKET=your-storage-bucket
 VITE_FIREBASE_MESSAGING_SENDER_ID=your-messaging-sender-id
 VITE_FIREBASE_APP_ID=your-app-id
 VITE_FIREBASE_MEASUREMENT_ID=your-measurement-id
-## 4. Start the Development Server:
-  ```bash
+4. Start the Development Server:
+bash
+Copy code
 npm run dev
-
-## 5. Build the Application for Production:
-  ```bash
+5. Build the Application for Production:
+bash
+Copy code
 npm run build
-
-## 6. Preview the Production Build:
-  ```bash
+6. Preview the Production Build:
+bash
+Copy code
 npm run preview
 
 ## Technologies Used
