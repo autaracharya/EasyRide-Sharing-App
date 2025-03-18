@@ -65,5 +65,8 @@ VITE_FIREBASE_MEASUREMENT_ID=your-measurement-id</code></pre>
 - **Firestore**: For storing app data, including user profiles, trips, and booking details.
 - **Firebase Functions** (optional): For hosting server-side logic if needed.
 
+### License
+The MIT License was chosen because it’s simple, widely recognized, and allows others to freely use and contribute to the project. For full details, please see the LICENSE file.
+
 
 
