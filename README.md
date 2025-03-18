@@ -28,17 +28,18 @@ Follow these steps to set up and run the EasyRide project on your machine:
    ```bash
    git clone https://github.com/shivampatelcodes/Easyride
    cd easyride
-Install Dependencies:
 
-bash
-Copy code
+## 2. Install Dependencies:
+Run the following command to install the required packages:
+
+  ```bash
 npm install
-Setup Firebase Configuration:
 
+## 3. Setup Firebase Configuration:
 Create a .env file in the root directory.
 Add your Firebase configuration variables to the .env file as shown below:
 env
-Copy code
+  ```bash
 VITE_FIREBASE_API_KEY=your-api-key
 VITE_FIREBASE_AUTH_DOMAIN=your-auth-domain
 VITE_FIREBASE_PROJECT_ID=your-project-id
@@ -46,34 +47,30 @@ VITE_FIREBASE_STORAGE_BUCKET=your-storage-bucket
 VITE_FIREBASE_MESSAGING_SENDER_ID=your-messaging-sender-id
 VITE_FIREBASE_APP_ID=your-app-id
 VITE_FIREBASE_MEASUREMENT_ID=your-measurement-id
-Start the Development Server:
-
-bash
-Copy code
+## 4. Start the Development Server:
+  ```bash
 npm run dev
-Build the Application for Production:
 
-bash
-Copy code
+## 5. Build the Application for Production:
+  ```bash
 npm run build
-Preview the Production Build:
 
-bash
-Copy code
+## 6. Preview the Production Build:
+  ```bash
 npm run preview
-Technologies Used
-Frontend:
 
-React: For building the user interface.
-React Router: For client-side routing.
-Tailwind CSS: For fast and responsive styling.
-PropTypes: For prop type validation in React components.
-Backend:
+## Technologies Used
 
-Firebase Authentication: For managing user sign up/sign in and maintaining persistent sessions.
-Firestore: For storing app data, including user profiles, trips, and booking details.
-Firebase Functions (optional): For hosting server-side logic if needed.
-License
-The MIT License was chosen because it’s simple, widely recognized, and allows others to freely use and contribute to the project. For full details, please see the LICENSE file.
+### Frontend:
+- **React**: For building the user interface.
+- **React Router**: For client-side routing.
+- **Tailwind CSS**: For fast and responsive styling.
+- **PropTypes**: For prop type validation in React components.
+
+### Backend:
+- **Firebase Authentication**: For managing user sign up/sign in and maintaining persistent sessions.
+- **Firestore**: For storing app data, including user profiles, trips, and booking details.
+- **Firebase Functions** (optional): For hosting server-side logic if needed.
+
 
 
